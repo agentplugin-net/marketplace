@@ -1,8 +1,6 @@
 {
   "name": "agentplugin-net",
-  "owner": {
-    "name": "agentplugin-net"
-  },
+  "owner": { "name": "agentplugin-net" },
   "metadata": {
     "description": "AgentPlugin.net marketplace index for portable agent plugins."
   },
@@ -48,52 +46,9 @@
     },
     {
       "name": "data-tools",
-      "source": {
-        "source": "github",
-        "repo": "netresearch/data-tools-skill"
-      },
+      "source": { "source": "github", "repo": "netresearch/data-tools-skill" },
       "category": "Developer Tools",
       "repository": "https://github.com/netresearch/data-tools-skill"
-    },
-    {
-      "name": "foundations-authoring",
-      "source": {
-        "source": "github",
-        "repo": "mylokaye/Foundations",
-        "path": "authoring"
-      },
-      "category": "Design",
-      "repository": "https://github.com/mylokaye/Foundations"
-    },
-    {
-      "name": "foundations-javascript-static-review",
-      "source": {
-        "source": "github",
-        "repo": "mylokaye/Foundations",
-        "path": "javascript-static-review"
-      },
-      "category": "Testing",
-      "repository": "https://github.com/mylokaye/Foundations"
-    },
-    {
-      "name": "foundations-project",
-      "source": {
-        "source": "github",
-        "repo": "mylokaye/Foundations",
-        "path": "project"
-      },
-      "category": "Design",
-      "repository": "https://github.com/mylokaye/Foundations"
-    },
-    {
-      "name": "foundations-web",
-      "source": {
-        "source": "github",
-        "repo": "mylokaye/Foundations",
-        "path": "web"
-      },
-      "category": "Web Development",
-      "repository": "https://github.com/mylokaye/Foundations"
     },
     {
       "name": "fullstack-dev",
@@ -107,10 +62,7 @@
     },
     {
       "name": "ghostfetch",
-      "source": {
-        "source": "github",
-        "repo": "iArsalanshah/GhostFetch"
-      },
+      "source": { "source": "github", "repo": "iArsalanshah/GhostFetch" },
       "category": "Web Development",
       "repository": "https://github.com/iArsalanshah/GhostFetch"
     },
@@ -163,10 +115,7 @@
     },
     {
       "name": "imwenyaot-skills",
-      "source": {
-        "source": "github",
-        "repo": "ImWenyaoT/skills"
-      },
+      "source": { "source": "github", "repo": "ImWenyaoT/skills" },
       "category": "Testing",
       "repository": "https://github.com/ImWenyaoT/skills"
     },
@@ -247,38 +196,26 @@
       "repository": "https://github.com/kirodotdev/powers"
     },
     {
-      "name": "recipe",
-      "source": {
-        "source": "github",
-        "repo": "edgestream/recipe-plugin"
-      },
+      "name": "recipe-dev",
+      "source": { "source": "github", "repo": "edgestream/recipe-plugin" },
       "category": "Developer Tools",
       "repository": "https://github.com/edgestream/recipe-plugin"
     },
     {
       "name": "retro",
-      "source": {
-        "source": "github",
-        "repo": "netresearch/retro-skill"
-      },
+      "source": { "source": "github", "repo": "netresearch/retro-skill" },
       "category": "Testing",
       "repository": "https://github.com/netresearch/retro-skill"
     },
     {
       "name": "rigforge-agent-plugin",
-      "source": {
-        "source": "github",
-        "repo": "Emil-10/rigforge-agent-plugin"
-      },
+      "source": { "source": "github", "repo": "Emil-10/rigforge-agent-plugin" },
       "category": "Media Production",
       "repository": "https://github.com/Emil-10/rigforge-agent-plugin"
     },
     {
       "name": "skill-repo",
-      "source": {
-        "source": "github",
-        "repo": "netresearch/skill-repo-skill"
-      },
+      "source": { "source": "github", "repo": "netresearch/skill-repo-skill" },
       "category": "Design",
       "repository": "https://github.com/netresearch/skill-repo-skill"
     },
@@ -294,10 +231,7 @@
     },
     {
       "name": "summon",
-      "source": {
-        "source": "github",
-        "repo": "Nafjan/summon"
-      },
+      "source": { "source": "github", "repo": "Nafjan/summon" },
       "category": "AI Development",
       "repository": "https://github.com/Nafjan/summon"
     },
