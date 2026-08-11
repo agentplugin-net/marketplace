@@ -15,6 +15,26 @@
       "repository": "https://github.com/MSFT-TKENDRICK/ado-to-github-teams"
     },
     {
+      "name": "blender",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arg-software-factory/artyx-marketplace.git",
+        "path": "plugins/blender"
+      },
+      "category": "Media Production",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    },
+    {
+      "name": "build-apple-apps",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Allmight97/agents.git",
+        "path": "plugins/build-apple-apps"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/Allmight97/agents"
+    },
+    {
       "name": "agent-looper",
       "source": {
         "source": "git-subdir",
@@ -35,6 +55,36 @@
       "repository": "https://github.com/Cloud-Peek/agent-plugin"
     },
     {
+      "name": "claude-remote-control",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Anchras/terminalbox-tools.git",
+        "path": "plugins/claude-remote-control"
+      },
+      "category": "Design",
+      "repository": "https://github.com/Anchras/terminalbox-tools"
+    },
+    {
+      "name": "copilot-remote-control",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Anchras/terminalbox-tools.git",
+        "path": "plugins/copilot-remote-control"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/Anchras/terminalbox-tools"
+    },
+    {
+      "name": "codex-maestro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/akoita/agent-toolkit.git",
+        "path": "plugins/portable/codex-maestro"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/akoita/agent-toolkit"
+    },
+    {
       "name": "data-tools",
       "source": {
         "source": "url",
@@ -51,6 +101,34 @@
       },
       "category": "Web Development",
       "repository": "https://github.com/iArsalanshah/GhostFetch"
+    },
+    {
+      "name": "godot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arg-software-factory/artyx-marketplace.git",
+        "path": "plugins/godot"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    },
+    {
+      "name": "googlecloud-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jpantsjoha/googlecloud-plugin.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/jpantsjoha/googlecloud-plugin"
+    },
+    {
+      "name": "gophers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/muratmirgun/gophers.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/muratmirgun/gophers"
     },
     {
       "name": "git-workflow",
@@ -135,16 +213,6 @@
       "repository": "https://github.com/BlockedPath/pi-agent-plugins"
     },
     {
-      "name": "plotpickle-workflow-tester",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/BryanHarrisScripts/PlotPickle.git",
-        "path": "tools/agent-plugins/plotpickle-workflow-tester"
-      },
-      "category": "Testing",
-      "repository": "https://github.com/BryanHarrisScripts/PlotPickle"
-    },
-    {
       "name": "portable-doc-toolkit",
       "source": {
         "source": "git-subdir",
@@ -155,7 +223,7 @@
       "repository": "https://github.com/AmanProjects/TWTAI-Batch2"
     },
     {
-      "name": "postbridge",
+      "name": "PostBridge",
       "source": {
         "source": "url",
         "url": "https://github.com/PostbridgeAI/postbridge-agent-plugin.git"
@@ -181,6 +249,76 @@
       },
       "category": "Developer Tools",
       "repository": "https://github.com/edgestream/recipe-plugin"
+    },
+    {
+      "name": "remote-workspace-fit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Anchras/terminalbox-tools.git",
+        "path": "plugins/remote-workspace-fit"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/Anchras/terminalbox-tools"
+    },
+    {
+      "name": "resend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/everruns/everruns.git",
+        "path": "plugins/resend"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/everruns/everruns"
+    },
+    {
+      "name": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/akoita/agent-toolkit.git",
+        "path": "plugins/portable/security"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/akoita/agent-toolkit"
+    },
+    {
+      "name": "legalcode-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/RobertHH-IS/legalcode-plugin.git",
+        "path": "plugins/legalcode-codex"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/RobertHH-IS/legalcode-plugin"
+    },
+    {
+      "name": "legalcode-pro-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/RobertHH-IS/legalcode-plugin.git",
+        "path": "plugins/legalcode-pro-codex"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/RobertHH-IS/legalcode-plugin"
+    },
+    {
+      "name": "legalcode-claude-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/RobertHH-IS/legalcode-plugin.git",
+        "path": "plugins/legalcode-claude-code"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/RobertHH-IS/legalcode-plugin"
+    },
+    {
+      "name": "legalcode-pro-claude-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/RobertHH-IS/legalcode-plugin.git",
+        "path": "plugins/legalcode-pro-claude-code"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/RobertHH-IS/legalcode-plugin"
     },
     {
       "name": "retro",
@@ -235,6 +373,26 @@
       },
       "category": "Testing",
       "repository": "https://github.com/dancingteeth/unified-code-review"
+    },
+    {
+      "name": "unity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arg-software-factory/artyx-marketplace.git",
+        "path": "plugins/unity"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    },
+    {
+      "name": "unreal-engine",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arg-software-factory/artyx-marketplace.git",
+        "path": "plugins/unreal-engine"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
     }
   ]
 }

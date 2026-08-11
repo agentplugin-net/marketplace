@@ -35,6 +35,16 @@
       "repository": "https://github.com/arg-software-factory/artyx-marketplace"
     },
     {
+      "name": "build-apple-apps",
+      "source": {
+        "source": "github",
+        "repo": "Allmight97/agents",
+        "path": "plugins/build-apple-apps"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/Allmight97/agents"
+    },
+    {
       "name": "cloudpeek",
       "source": {
         "source": "github",
@@ -43,6 +53,16 @@
       },
       "category": "Testing",
       "repository": "https://github.com/Cloud-Peek/agent-plugin"
+    },
+    {
+      "name": "codex-maestro",
+      "source": {
+        "source": "github",
+        "repo": "akoita/agent-toolkit",
+        "path": "plugins/portable/codex-maestro"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/akoita/agent-toolkit"
     },
     {
       "name": "data-tools",
@@ -114,6 +134,24 @@
       "repository": "https://github.com/arg-software-factory/artyx-marketplace"
     },
     {
+      "name": "googlecloud-plugin",
+      "source": {
+        "source": "github",
+        "repo": "jpantsjoha/googlecloud-plugin"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/jpantsjoha/googlecloud-plugin"
+    },
+    {
+      "name": "gophers",
+      "source": {
+        "source": "github",
+        "repo": "muratmirgun/gophers"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/muratmirgun/gophers"
+    },
+    {
       "name": "imwenyaot-skills",
       "source": { "source": "github", "repo": "ImWenyaoT/skills" },
       "category": "Testing",
@@ -127,6 +165,26 @@
       },
       "category": "Testing",
       "repository": "https://github.com/netresearch/jujutsu-workflow-skill"
+    },
+    {
+      "name": "legalcode-codex",
+      "source": {
+        "source": "github",
+        "repo": "RobertHH-IS/legalcode-plugin",
+        "path": "plugins/legalcode-codex"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/RobertHH-IS/legalcode-plugin"
+    },
+    {
+      "name": "legalcode-pro-codex",
+      "source": {
+        "source": "github",
+        "repo": "RobertHH-IS/legalcode-plugin",
+        "path": "plugins/legalcode-pro-codex"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/RobertHH-IS/legalcode-plugin"
     },
     {
       "name": "lightbringer",
@@ -164,16 +222,6 @@
       },
       "category": "Testing",
       "repository": "https://github.com/BlockedPath/pi-agent-plugins"
-    },
-    {
-      "name": "plotpickle-workflow-tester",
-      "source": {
-        "source": "github",
-        "repo": "BryanHarrisScripts/PlotPickle",
-        "path": "tools/agent-plugins/plotpickle-workflow-tester"
-      },
-      "category": "Testing",
-      "repository": "https://github.com/BryanHarrisScripts/PlotPickle"
     },
     {
       "name": "portable-doc-toolkit",
