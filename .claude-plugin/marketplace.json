@@ -1,0 +1,240 @@
+{
+  "name": "agentplugin-net",
+  "owner": {
+    "name": "agentplugin-net"
+  },
+  "description": "AgentPlugin.net marketplace index for portable agent plugins.",
+  "plugins": [
+    {
+      "name": "ado-to-github-teams",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MSFT-TKENDRICK/ado-to-github-teams.git"
+      },
+      "category": "Design",
+      "repository": "https://github.com/MSFT-TKENDRICK/ado-to-github-teams"
+    },
+    {
+      "name": "agent-looper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dancingteeth/agent-looper.git",
+        "path": "plugins/agent-looper"
+      },
+      "category": "Design",
+      "repository": "https://github.com/dancingteeth/agent-looper"
+    },
+    {
+      "name": "cloudpeek",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Cloud-Peek/agent-plugin.git",
+        "path": "cloudpeek"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/Cloud-Peek/agent-plugin"
+    },
+    {
+      "name": "data-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/data-tools-skill.git"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/netresearch/data-tools-skill"
+    },
+    {
+      "name": "ghostfetch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iArsalanshah/GhostFetch.git"
+      },
+      "category": "Web Development",
+      "repository": "https://github.com/iArsalanshah/GhostFetch"
+    },
+    {
+      "name": "git-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/git-workflow-skill.git"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/netresearch/git-workflow-skill"
+    },
+    {
+      "name": "github-project",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/github-project-skill.git"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/netresearch/github-project-skill"
+    },
+    {
+      "name": "github-release",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/github-release-skill.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/netresearch/github-release-skill"
+    },
+    {
+      "name": "imwenyaot-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ImWenyaoT/skills.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/ImWenyaoT/skills"
+    },
+    {
+      "name": "jujutsu-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/jujutsu-workflow-skill.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/netresearch/jujutsu-workflow-skill"
+    },
+    {
+      "name": "lightbringer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lightbringer-patents/agent-plugin.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/lightbringer-patents/agent-plugin"
+    },
+    {
+      "name": "markdown-to-pdf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/markdown-to-pdf-skill.git"
+      },
+      "category": "Design",
+      "repository": "https://github.com/netresearch/markdown-to-pdf-skill"
+    },
+    {
+      "name": "palim",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joleschmidt/palim-mcp-examples.git"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/joleschmidt/palim-mcp-examples"
+    },
+    {
+      "name": "pi-agent-plugins-smoke",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BlockedPath/pi-agent-plugins.git",
+        "path": "examples/pi-agent-plugins-smoke"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/BlockedPath/pi-agent-plugins"
+    },
+    {
+      "name": "plotpickle-workflow-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BryanHarrisScripts/PlotPickle.git",
+        "path": "tools/agent-plugins/plotpickle-workflow-tester"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/BryanHarrisScripts/PlotPickle"
+    },
+    {
+      "name": "portable-doc-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/AmanProjects/TWTAI-Batch2.git",
+        "path": "modules/08-plugin-components/portable-doc-toolkit"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/AmanProjects/TWTAI-Batch2"
+    },
+    {
+      "name": "postbridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PostbridgeAI/postbridge-agent-plugin.git"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/PostbridgeAI/postbridge-agent-plugin"
+    },
+    {
+      "name": "power-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kirodotdev/powers.git",
+        "path": "power-builder"
+      },
+      "category": "Design",
+      "repository": "https://github.com/kirodotdev/powers"
+    },
+    {
+      "name": "recipe-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/edgestream/recipe-plugin.git"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/edgestream/recipe-plugin"
+    },
+    {
+      "name": "retro",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/retro-skill.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/netresearch/retro-skill"
+    },
+    {
+      "name": "skill-repo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/skill-repo-skill.git"
+      },
+      "category": "Design",
+      "repository": "https://github.com/netresearch/skill-repo-skill"
+    },
+    {
+      "name": "summon",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nafjan/summon.git"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/Nafjan/summon"
+    },
+    {
+      "name": "typo3-extension-upgrade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/typo3-extension-upgrade-skill.git"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/netresearch/typo3-extension-upgrade-skill"
+    },
+    {
+      "name": "typo3-upgrade-effort-model",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill.git"
+      },
+      "category": "Design",
+      "repository": "https://github.com/netresearch/typo3-upgrade-effort-model-skill"
+    },
+    {
+      "name": "unified-code-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dancingteeth/unified-code-review.git"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/dancingteeth/unified-code-review"
+    }
+  ]
+}

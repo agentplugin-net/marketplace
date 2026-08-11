@@ -1,0 +1,362 @@
+{
+  "name": "agentplugin-net",
+  "owner": {
+    "name": "agentplugin-net"
+  },
+  "metadata": {
+    "description": "AgentPlugin.net marketplace index for portable agent plugins."
+  },
+  "plugins": [
+    {
+      "name": "agent-looper",
+      "source": {
+        "source": "github",
+        "repo": "dancingteeth/agent-looper",
+        "path": "plugins/agent-looper"
+      },
+      "category": "Design",
+      "repository": "https://github.com/dancingteeth/agent-looper"
+    },
+    {
+      "name": "anyshift-production-intelligence",
+      "source": {
+        "source": "github",
+        "repo": "anyshift-io/anyshift-production-intelligence"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/anyshift-io/anyshift-production-intelligence"
+    },
+    {
+      "name": "blender",
+      "source": {
+        "source": "github",
+        "repo": "arg-software-factory/artyx-marketplace",
+        "path": "plugins/blender"
+      },
+      "category": "Media Production",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    },
+    {
+      "name": "cloudpeek",
+      "source": {
+        "source": "github",
+        "repo": "Cloud-Peek/agent-plugin",
+        "path": "cloudpeek"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/Cloud-Peek/agent-plugin"
+    },
+    {
+      "name": "data-tools",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/data-tools-skill"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/netresearch/data-tools-skill"
+    },
+    {
+      "name": "foundations-authoring",
+      "source": {
+        "source": "github",
+        "repo": "mylokaye/Foundations",
+        "path": "authoring"
+      },
+      "category": "Design",
+      "repository": "https://github.com/mylokaye/Foundations"
+    },
+    {
+      "name": "foundations-javascript-static-review",
+      "source": {
+        "source": "github",
+        "repo": "mylokaye/Foundations",
+        "path": "javascript-static-review"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/mylokaye/Foundations"
+    },
+    {
+      "name": "foundations-project",
+      "source": {
+        "source": "github",
+        "repo": "mylokaye/Foundations",
+        "path": "project"
+      },
+      "category": "Design",
+      "repository": "https://github.com/mylokaye/Foundations"
+    },
+    {
+      "name": "foundations-web",
+      "source": {
+        "source": "github",
+        "repo": "mylokaye/Foundations",
+        "path": "web"
+      },
+      "category": "Web Development",
+      "repository": "https://github.com/mylokaye/Foundations"
+    },
+    {
+      "name": "fullstack-dev",
+      "source": {
+        "source": "github",
+        "repo": "dtgbao/agent-skills",
+        "path": "plugins/fullstack-dev"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/dtgbao/agent-skills"
+    },
+    {
+      "name": "ghostfetch",
+      "source": {
+        "source": "github",
+        "repo": "iArsalanshah/GhostFetch"
+      },
+      "category": "Web Development",
+      "repository": "https://github.com/iArsalanshah/GhostFetch"
+    },
+    {
+      "name": "git-slop",
+      "source": {
+        "source": "github",
+        "repo": "coreycoto/git-slop",
+        "path": "plugins/git-slop"
+      },
+      "category": "Design",
+      "repository": "https://github.com/coreycoto/git-slop"
+    },
+    {
+      "name": "git-workflow",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/git-workflow-skill"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/netresearch/git-workflow-skill"
+    },
+    {
+      "name": "github-project",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/github-project-skill"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/netresearch/github-project-skill"
+    },
+    {
+      "name": "github-release",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/github-release-skill"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/netresearch/github-release-skill"
+    },
+    {
+      "name": "godot",
+      "source": {
+        "source": "github",
+        "repo": "arg-software-factory/artyx-marketplace",
+        "path": "plugins/godot"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    },
+    {
+      "name": "imwenyaot-skills",
+      "source": {
+        "source": "github",
+        "repo": "ImWenyaoT/skills"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/ImWenyaoT/skills"
+    },
+    {
+      "name": "jujutsu-workflow",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/jujutsu-workflow-skill"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/netresearch/jujutsu-workflow-skill"
+    },
+    {
+      "name": "lightbringer",
+      "source": {
+        "source": "github",
+        "repo": "lightbringer-patents/agent-plugin"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/lightbringer-patents/agent-plugin"
+    },
+    {
+      "name": "markdown-to-pdf",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/markdown-to-pdf-skill"
+      },
+      "category": "Design",
+      "repository": "https://github.com/netresearch/markdown-to-pdf-skill"
+    },
+    {
+      "name": "palim",
+      "source": {
+        "source": "github",
+        "repo": "joleschmidt/palim-mcp-examples"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/joleschmidt/palim-mcp-examples"
+    },
+    {
+      "name": "pi-agent-plugins-smoke",
+      "source": {
+        "source": "github",
+        "repo": "BlockedPath/pi-agent-plugins",
+        "path": "examples/pi-agent-plugins-smoke"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/BlockedPath/pi-agent-plugins"
+    },
+    {
+      "name": "plotpickle-workflow-tester",
+      "source": {
+        "source": "github",
+        "repo": "BryanHarrisScripts/PlotPickle",
+        "path": "tools/agent-plugins/plotpickle-workflow-tester"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/BryanHarrisScripts/PlotPickle"
+    },
+    {
+      "name": "portable-doc-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "AmanProjects/TWTAI-Batch2",
+        "path": "modules/08-plugin-components/portable-doc-toolkit"
+      },
+      "category": "Communications",
+      "repository": "https://github.com/AmanProjects/TWTAI-Batch2"
+    },
+    {
+      "name": "power-builder",
+      "source": {
+        "source": "github",
+        "repo": "kirodotdev/powers",
+        "path": "power-builder"
+      },
+      "category": "Design",
+      "repository": "https://github.com/kirodotdev/powers"
+    },
+    {
+      "name": "recipe",
+      "source": {
+        "source": "github",
+        "repo": "edgestream/recipe-plugin"
+      },
+      "category": "Developer Tools",
+      "repository": "https://github.com/edgestream/recipe-plugin"
+    },
+    {
+      "name": "retro",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/retro-skill"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/netresearch/retro-skill"
+    },
+    {
+      "name": "rigforge-agent-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Emil-10/rigforge-agent-plugin"
+      },
+      "category": "Media Production",
+      "repository": "https://github.com/Emil-10/rigforge-agent-plugin"
+    },
+    {
+      "name": "skill-repo",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/skill-repo-skill"
+      },
+      "category": "Design",
+      "repository": "https://github.com/netresearch/skill-repo-skill"
+    },
+    {
+      "name": "sol-advisor",
+      "source": {
+        "source": "github",
+        "repo": "DannyMac180/sol-advisor",
+        "path": "plugins/sol-advisor"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/DannyMac180/sol-advisor"
+    },
+    {
+      "name": "summon",
+      "source": {
+        "source": "github",
+        "repo": "Nafjan/summon"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/Nafjan/summon"
+    },
+    {
+      "name": "swe-wiki",
+      "source": {
+        "source": "github",
+        "repo": "dtgbao/agent-skills",
+        "path": "plugins/swe-wiki"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/dtgbao/agent-skills"
+    },
+    {
+      "name": "typo3-extension-upgrade",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/typo3-extension-upgrade-skill"
+      },
+      "category": "AI Development",
+      "repository": "https://github.com/netresearch/typo3-extension-upgrade-skill"
+    },
+    {
+      "name": "typo3-upgrade-effort-model",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/typo3-upgrade-effort-model-skill"
+      },
+      "category": "Design",
+      "repository": "https://github.com/netresearch/typo3-upgrade-effort-model-skill"
+    },
+    {
+      "name": "unified-code-review",
+      "source": {
+        "source": "github",
+        "repo": "dancingteeth/unified-code-review"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/dancingteeth/unified-code-review"
+    },
+    {
+      "name": "unity",
+      "source": {
+        "source": "github",
+        "repo": "arg-software-factory/artyx-marketplace",
+        "path": "plugins/unity"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    },
+    {
+      "name": "unreal-engine",
+      "source": {
+        "source": "github",
+        "repo": "arg-software-factory/artyx-marketplace",
+        "path": "plugins/unreal-engine"
+      },
+      "category": "Testing",
+      "repository": "https://github.com/arg-software-factory/artyx-marketplace"
+    }
+  ]
+}

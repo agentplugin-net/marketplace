@@ -1,0 +1,314 @@
+{
+  "name": "agentplugin-net",
+  "interface": {
+    "displayName": "AgentPlugin.net"
+  },
+  "plugins": [
+    {
+      "name": "ado-to-github-teams",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MSFT-TKENDRICK/ado-to-github-teams.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "agent-looper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dancingteeth/agent-looper.git",
+        "path": "./plugins/agent-looper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "cloudpeek",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Cloud-Peek/agent-plugin.git",
+        "path": "./cloudpeek"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "data-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/data-tools-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ghostfetch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iArsalanshah/GhostFetch.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Web Development"
+    },
+    {
+      "name": "git-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/git-workflow-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "github-project",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/github-project-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "github-release",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/github-release-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "imwenyaot-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ImWenyaoT/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "jujutsu-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/jujutsu-workflow-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "lightbringer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lightbringer-patents/agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "markdown-to-pdf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/markdown-to-pdf-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "palim",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joleschmidt/palim-mcp-examples.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI Development"
+    },
+    {
+      "name": "pi-agent-plugins-smoke",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BlockedPath/pi-agent-plugins.git",
+        "path": "./examples/pi-agent-plugins-smoke"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "plotpickle-workflow-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BryanHarrisScripts/PlotPickle.git",
+        "path": "./tools/agent-plugins/plotpickle-workflow-tester"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "portable-doc-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/AmanProjects/TWTAI-Batch2.git",
+        "path": "./modules/08-plugin-components/portable-doc-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Communications"
+    },
+    {
+      "name": "postbridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PostbridgeAI/postbridge-agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI Development"
+    },
+    {
+      "name": "power-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kirodotdev/powers.git",
+        "path": "./power-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "recipe-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/edgestream/recipe-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "retro",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/retro-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    },
+    {
+      "name": "skill-repo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/skill-repo-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "summon",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nafjan/summon.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI Development"
+    },
+    {
+      "name": "typo3-extension-upgrade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/typo3-extension-upgrade-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI Development"
+    },
+    {
+      "name": "typo3-upgrade-effort-model",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "unified-code-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dancingteeth/unified-code-review.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Testing"
+    }
+  ]
+}
